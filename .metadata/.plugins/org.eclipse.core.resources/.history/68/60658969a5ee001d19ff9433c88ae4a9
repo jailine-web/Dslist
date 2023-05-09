@@ -1,0 +1,9 @@
+package com.ProjetoJava.Dslist.services;
+
+import org.springframework.stereotype.Service;
+
+@Service //registra a classe como um componente no sistema, ele pode injetar um componente no outro
+public class GameService {
+
+	
+}

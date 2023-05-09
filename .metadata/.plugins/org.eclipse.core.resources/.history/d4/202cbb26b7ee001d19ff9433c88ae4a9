@@ -1,0 +1,9 @@
+package com.ProjetoJava.Dslist.controllers;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController// disponibiliza a API
+public class GameController {
+
+	
+}

@@ -1,0 +1,2 @@
+
+INSERT INTO tb_game (titulo, ano, genero,  plataforma, nivel, imgUrl, descricaoCurta, descricaoLonga) VALUES ("AAAA", 2012, "BBBB", "cccc", 4,8 , "djnjasc", "descriçaõ curta", "Descrição longa");
