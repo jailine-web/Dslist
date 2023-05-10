@@ -1,0 +1,10 @@
+package com.ProjetoJava.Dslist.entities;
+
+public class Posicao {
+
+	private PosicaoPK chaveComposta;
+	
+	
+	private Integer posicao;
+	
+}

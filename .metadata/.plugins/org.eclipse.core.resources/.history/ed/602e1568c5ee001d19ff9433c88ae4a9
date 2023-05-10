@@ -1,0 +1,5 @@
+package com.ProjetoJava.Dslist.entities;
+
+public class Posicao {
+
+}

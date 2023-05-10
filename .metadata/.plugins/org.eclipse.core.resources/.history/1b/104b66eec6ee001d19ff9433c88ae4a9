@@ -1,0 +1,27 @@
+package com.ProjetoJava.Dslist.entities;
+
+import jakarta.persistence.EmbeddedId;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name = "tb_posicao")
+public class Posicao {
+
+	@EmbeddedId
+	private PosicaoPK chaveComposta = new PosicaoPK(); //representa dois campos na tabela relacional
+	
+	private Integer posicao;
+	
+	public Posicao() {
+		
+	}
+
+	public Posicao(Game game, GameList gameList, Integer posicao) {
+		chaveComposta.setGame(game);
+		chaveComposta.setGameList(gameList);
+		this.posicao = posicao;
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.ProjetoJava.Dslist.entities;
+
+public class PosicaoPK {
+
+	private Game game;
+	private GameList gameList;
+	
+	
+	
+}

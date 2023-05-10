@@ -1,0 +1,16 @@
+package com.ProjetoJava.Dslist.entities;
+
+import jakarta.persistence.EmbeddedId;
+
+public class Posicao {
+
+	@EmbeddedId
+	private PosicaoPK chaveComposta = new PosicaoPK(); //representa dois campos na tabela relacional
+	
+	private Integer posicao;
+	
+	public Posicao() {
+		
+	}
+	
+}
