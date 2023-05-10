@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="nivel"/>
+		<item key="selection" value="posicao"/>
 		<list key="findhistory">
+			<item value="position"/>
 			<item value="nivel"/>
 			<item value="ano "/>
 			<item value="-"/>
@@ -22,9 +23,9 @@
 			<item value="game_year"/>
 			<item value="plataformas"/>
 			<item value="platform"/>
-			<item value="genre"/>
 		</list>
 		<list key="replacehistory">
+			<item value="posicao"/>
 			<item value="ano"/>
 			<item value="gen"/>
 			<item value="genero"/>
