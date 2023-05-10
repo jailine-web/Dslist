@@ -14,7 +14,7 @@ import com.ProjetoJava.Dslist.repositories.GameRepository;
 @Service 
 public class GameService {
 
-	@Autowired //injetando uma instância do gameRepository na classe gameService
+	@Autowired 
 	private GameRepository gameRepository;
 	
 	@Transactional(readOnly = true)
