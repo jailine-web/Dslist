@@ -51,3 +51,14 @@ Quando extend a interface JPA é necessário inserir o nome da classe e o tipo d
 
 Service é um componente responsável por implementar as regras de negócios, ações/validações do sistema
 
+@Service //registra a classe como um componente no sistema, ele pode injetar um componente no outro
+
+@Autowired //injetando uma instância do gameRepository na classe gameService
+
+BeanUtils.copyProperties(entity, this): serve para automatizar a inserção dos atributos no construtor, só funciona com os getters e setters
+
+
+
+
+
+

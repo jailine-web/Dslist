@@ -1,0 +1,5 @@
+package com.ProjetoJava.Dslist.services;
+
+public class GameDTO {
+
+}
