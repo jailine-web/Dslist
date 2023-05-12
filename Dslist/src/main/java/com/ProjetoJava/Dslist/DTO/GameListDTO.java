@@ -7,10 +7,6 @@ public class GameListDTO {
 	private Long id;
 	private String nome;
 	
-	
-	public GameListDTO() {
-		
-	}
 
 	public GameListDTO(GameList gameList) {
 		id = gameList.getId();

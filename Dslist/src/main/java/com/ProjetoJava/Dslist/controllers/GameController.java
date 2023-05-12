@@ -12,7 +12,7 @@ import com.ProjetoJava.Dslist.DTO.GameDTO;
 import com.ProjetoJava.Dslist.DTO.GameMinDTO;
 import com.ProjetoJava.Dslist.services.GameService;
 
-@RestController// disponibiliza a API
+@RestController // disponibiliza a API
 @RequestMapping(value="/games")
 public class GameController {
 

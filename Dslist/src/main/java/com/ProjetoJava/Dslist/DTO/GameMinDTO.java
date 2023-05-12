@@ -1,6 +1,7 @@
 package com.ProjetoJava.Dslist.DTO;
 
 import com.ProjetoJava.Dslist.entities.Game;
+import com.ProjetoJava.Dslist.projetos.ProjetoGame;
 
 public class GameMinDTO {
 
@@ -9,10 +10,6 @@ public class GameMinDTO {
 	private Integer ano;
 	private String imgUrl;
 	private String descricaoCurta;
-	
-	public GameMinDTO() {
-		
-	}
 
 	public GameMinDTO (Game entity) {
 		id = entity.getId();
@@ -20,6 +17,14 @@ public class GameMinDTO {
 		ano = entity.getAno();
 		imgUrl = entity.getImgUrl();
 		descricaoCurta = entity.getDescricaoCurta();
+	}
+	
+	public GameMinDTO (ProjetoGame projeto) {
+		id = projeto.getId();
+		titulo = projeto.getTitulo();
+		ano = projeto.getAno();
+		imgUrl = projeto.getImgUrl();
+		descricaoCurta = projeto.getDescricaoCurta();
 	}
 
 	public Long getId() {

@@ -1,0 +1,15 @@
+package com.ProjetoJava.Dslist.repositories;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.ProjetoJava.Dslist.entities.Game;
+import com.ProjetoJava.Dslist.projetos.ProjetoGame;
+
+public interface GameRepository extends JpaRepository<Game, Long>{
+
+	List<ProjetoGame> pesquisarPorLista(Long idLista);
+	
+}

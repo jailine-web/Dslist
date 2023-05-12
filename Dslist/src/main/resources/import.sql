@@ -28,6 +28,3 @@ INSERT INTO tb_posicao (list_id, game_id, posicao) VALUES (2, 10, 4);
 
 
 
-
-
-

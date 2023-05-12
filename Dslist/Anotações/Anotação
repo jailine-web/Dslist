@@ -57,6 +57,8 @@ Service é um componente responsável por implementar as regras de negócios, a�
 
 BeanUtils.copyProperties(entity, this): serve para automatizar a inserção dos atributos no construtor, só funciona com os getters e setters
 
+@Query(nativeQuery = true falar sobre
+
 
 
 
