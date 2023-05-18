@@ -1,0 +1,11 @@
+package com.ProjetoJava.Dslist.DTO;
+
+public class SubstituicaoDTO {
+
+	private Integer indiceOrigem;
+	private Integer indiceDestino;
+	
+	
+	
+	
+}
